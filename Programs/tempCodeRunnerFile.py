@@ -1,1 +1,0 @@
-result = min(x,y,z)
