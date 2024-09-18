@@ -1,3 +1,8 @@
+# A valid username is the one which has the following:
+# 1. Character count must not be greater than 12
+# 2. Username must not contain any spaces
+# 3. Username must not containt any numbers
+
 username = input("Enter the username :")
 
 if len(username) > 12:
