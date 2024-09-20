@@ -40,10 +40,13 @@ animals = {"elephant", "kangaroo", "giraffe", "lion", "elephant", 1}
 
 
 
-# Tuple = () -> they are unordered and immutable any type of data can be stored
+# Tuple = () -> they are unordered and immutable any type of data can be stored and duplicates are allowed
 
-brands = ("toyota", "mercedes", "bmw", "hyundai")
+brands = ("toyota", "mercedes", "bmw", "hyundai", "toyota")
 # brands[0] = "mahindra" # This is not allowed in tuple as they are immutable
-print(brands)
-
+# print(brands.__sizeof__())
+# print(help(brands))
+# print(len(brands))
+# print(brands.index("bmw"));
+# print(brands.count("toyota")) # Allows to have duplicates
 
