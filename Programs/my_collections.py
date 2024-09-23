@@ -19,12 +19,12 @@ fruits = ["apple", "banana", "pineapple", "orange", 1]
 # print("apple" in fruits)
 # fruits.clear()
 # fruits.insert(2, "kangaroo")
-
+# fruits.remove("banana")
 # print(fruits)
 
 
 
-# Set = {} -> they are unordered and immutable any type of data can be stored
+# Set = {} -> they are unordered and immutable any type of data can be stored also you can add and delete elements
 
 animals = {"elephant", "kangaroo", "giraffe", "lion", "elephant", 1}
 # print(help(animals)) # To get built-in methods
